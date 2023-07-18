@@ -22,6 +22,9 @@ Data was provided in the form of a relational database made up of 15 tables
 - Category
 - Language
 
+**Source**: Data was provided by Rockbuster
+            Visualization was created in Tableau
+
 ## Tools
 - Language: PostgreSQL 
 - Software: pgAdmin, DbVisualizer, Tableau, Excel
