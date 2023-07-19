@@ -1,6 +1,6 @@
 SELECT 	F.title as movie_title, E.name AS Genre_name, 			
-		    F.rating, F.rental_rate, F.release_year,		
-		    SUM(A.amount) AS Movie_revenue		
+	F.rating, F.rental_rate, F.release_year,		
+	SUM(A.amount) AS Movie_revenue		
 				
 FROM payment A				
 INNER JOIN rental B ON A.rental_id = B.rental_id				
