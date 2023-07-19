@@ -1,0 +1,12 @@
+SELECT 	F.title as movie_title, E.name AS Genre_name, 			
+		    F.rating, F.rental_rate, F.release_year,		
+		    SUM(A.amount) AS Movie_revenue		
+				
+FROM payment A				
+INNER JOIN rental B ON A.rental_id = B.rental_id				
+INNER JOIN inventory C ON B.inventory_id = C.inventory_id				
+INNER JOIN film F ON C.film_id = F.film_id				
+INNER JOIN film_category D ON F.film_id = D.film_id				
+INNER JOIN category E ON D.category_id = E.category_id				
+GROUP BY Genre_name, title,rating, rental_rate, release_year				
+ORDER BY Movie_revenue DESC				
