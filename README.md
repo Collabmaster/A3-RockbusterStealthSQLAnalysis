@@ -31,12 +31,12 @@ Data was provided in the form of a relational database made up of 15 tables
 - Software: pgAdmin, DbVisualizer, Tableau, Excel
 
 ## Skills Demonstrated
-- **Data Cleaning**: checked for, and addressed duplicates, non-uniform data, and missing values.
+- **Data Cleaning**: checked for, and addressed duplicates, non-uniform data, and missing values
 
 - **Joining Tables**: selected the tables, type of joins through query optimization and sequence of joins to simultaneously analyze columns that are located in different tables
 
-- **Descriptive Statistics**: performed basic descriptive statistics (max/min, mean, mode) for variables and used GROUP BY and ORDER BY to answer more complicated questions.
+- **Descriptive Statistics**: performed basic descriptive statistics (max/min, mean, mode) for variables and used GROUP BY and ORDER BY to answer more complicated questions
 
-- **Coding with Common Table Expressions (CTEs)**: designed CTEs that would make code more readable when referenced, and easier to reuse.
+- **Coding with Common Table Expressions (CTEs)**: designed CTEs that would make code more readable when referenced, and easier to reuse
 
-- **Analysis Report**: created a Powerpoint presentation with answers to Rockbuster's key business questions, followed by recommendations.
+- **Analysis Report**: created a Powerpoint presentation with answers to Rockbuster's key business questions, followed by recommendations
